@@ -1,11 +1,7 @@
 ## Simple example
 
-
     public partial class Frame : Form
     {
-
-	...
- 
         ITrainee tra;
         ILabeler lab;
 
@@ -18,7 +14,4 @@
             lab.AddFilter(new RemoveNoiseRegionFilter());
             lab.Execute();
         }
-
-	...
    }
-
