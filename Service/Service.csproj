@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{630C6CFD-7ECE-4185-BF1E-3C7BF302043A}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Service</RootNamespace>
+    <AssemblyName>Service</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Activities.DurableInstancing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Scanner\Analysers\ClassifierBase.cs" />
+    <Compile Include="Scanner\Drawers\BrightlessDrawer.cs" />
+    <Compile Include="Scanner\Drawers\InterestPointDrawer.cs" />
+    <Compile Include="Scanner\Drawers\RegionDrawer.cs" />
+    <Compile Include="Scanner\Drawers\IDrawer.cs" />
+    <Compile Include="Scanner\Drawers\UnsafeRegionDrawer.cs" />
+    <Compile Include="Scanner\Analysers\FaceClassifier.cs" />
+    <Compile Include="Scanner\Analysers\IClassifier.cs" />
+    <Compile Include="Scanner\Filters\PostProcess Filters\RegionSizePostProcessFilter.cs" />
+    <Compile Include="Scanner\Filters\PreProcess Filters\EdgePreProcessFilter.cs" />
+    <Compile Include="Scanner\Filters\PreProcess Filters\IPreProcessFilter.cs" />
+    <Compile Include="Scanner\Filters\PostProcess Filters\Morfological\ClosingRegionFilter.cs" />
+    <Compile Include="Scanner\Filters\PostProcess Filters\ABCRegionFilter.cs" />
+    <Compile Include="Scanner\Filters\PostProcess Filters\BubbleSortingRegionFilter.cs" />
+    <Compile Include="Scanner\Filters\PostProcess Filters\FloodFillAlgorithm.cs" />
+    <Compile Include="Scanner\Filters\PostProcess Filters\FloodFillAlgorithm2.cs" />
+    <Compile Include="Scanner\Filters\PostProcess Filters\IPostProcessFilter.cs" />
+    <Compile Include="Scanner\Filters\PostProcess Filters\Morfological\OpeningRegionFilter.cs" />
+    <Compile Include="Scanner\Filters\PostProcess Filters\Morfological\ErosionRegionFilter.cs" />
+    <Compile Include="Scanner\Filters\PostProcess Filters\Morfological\DilationRegionFilter.cs" />
+    <Compile Include="Scanner\Filters\PostProcess Filters\Morfological\MorfologicalRegionFilterBase.cs" />
+    <Compile Include="Scanner\Filters\PostProcess Filters\RemoveNoiseRegionFilter.cs" />
+    <Compile Include="Scanner\Filters\PostProcess Filters\RegionFilterBase.cs" />
+    <Compile Include="Scanner\Filters\PostProcess Filters\_delegates.cs" />
+    <Compile Include="Scanner\Filters\PreProcess Filters\RemoveDustPreProcessFilter.cs" />
+    <Compile Include="Scanner\Scanners &amp; Labelers\AsyncFloodFillLabelerUnsafe.cs" />
+    <Compile Include="Scanner\Scanners &amp; Labelers\eventArgs\AsynchronousActionsComletedEventArgs.cs" />
+    <Compile Include="Scanner\Scanners &amp; Labelers\eventArgs\AsynchronousActionsEventArgs.cs" />
+    <Compile Include="Scanner\Scanners &amp; Labelers\IPreProcessFilterCollection.cs" />
+    <Compile Include="Scanner\Scanners &amp; Labelers\IPostProcessFilterCollection.cs" />
+    <Compile Include="Scanner\Scanners &amp; Labelers\FloodFillLabelerUnsafe.cs" />
+    <Compile Include="Scanner\Scanners &amp; Labelers\ILabeler.cs" />
+    <Compile Include="Scanner\Scanners &amp; Labelers\FloodFillLabeler.cs" />
+    <Compile Include="Scanner\Scanners &amp; Labelers\ImageScanner.cs" />
+    <Compile Include="Exstensions.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Scanner\Scanners &amp; Labelers\SRegion.cs" />
+    <Compile Include="Scanner\Scanners &amp; Labelers\SRegionInverseComparer.cs" />
+    <Compile Include="Trainee\ITrainee.cs" />
+    <Compile Include="Trainee\Thruesold.cs" />
+    <Compile Include="Trainee\Trainer.cs" />
+    <Compile Include="Trainee\GeneratedTrainee.cs" />
+    <Compile Include="Trainee\FileTrainee.cs" />
+    <Compile Include="Trainee\RgbHCrCbTrainee.cs" />
+    <Compile Include="Trainee\TraineeBase.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ANN\ANN.csproj">
+      <Project>{422ECFAC-F482-4F48-B3B6-BDA1EC6E8AB1}</Project>
+      <Name>ANN</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

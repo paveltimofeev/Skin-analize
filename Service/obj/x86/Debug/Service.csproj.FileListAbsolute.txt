@@ -1,0 +1,36 @@
+D:\My Documents\Visual Studio 2010\Projects\MyWCF\Service\bin\Debug\Service.exe
+D:\My Documents\Visual Studio 2010\Projects\MyWCF\Service\bin\Debug\Service.pdb
+D:\My Documents\Visual Studio 2010\Projects\MyWCF\Service\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\My Documents\Visual Studio 2010\Projects\MyWCF\Service\obj\x86\Debug\Service.exe
+D:\My Documents\Visual Studio 2010\Projects\MyWCF\Service\obj\x86\Debug\Service.pdb
+C:\Users\Pavel\Desktop\MyWCF_fdr\Service\bin\Debug\Service.exe
+C:\Users\Pavel\Desktop\MyWCF_fdr\Service\bin\Debug\Service.pdb
+C:\Users\Pavel\Desktop\MyWCF_fdr\Service\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Pavel\Desktop\MyWCF_fdr\Service\obj\x86\Debug\Service.exe
+C:\Users\Pavel\Desktop\MyWCF_fdr\Service\obj\x86\Debug\Service.pdb
+D:\My Documents\Visual Studio 2010\Projects\Sanalize\Service\obj\x86\Debug\Service.pdb
+D:\My Documents\Visual Studio 2010\Projects\Sanalize\Service\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\My Documents\Visual Studio 2010\Projects\Sanalize\Service\bin\Debug\Service.pdb
+D:\My Documents\Visual Studio 2010\Projects\Sanalize\Service\bin\Debug\Service.exe
+D:\My Documents\Visual Studio 2010\Projects\Sanalize\Service\obj\x86\Debug\Service.exe
+D:\My Documents\Visual Studio 2010\Projects\skin analize\Service\obj\x86\Debug\Service.exe
+D:\My Documents\Visual Studio 2010\Projects\skin analize\Service\obj\x86\Debug\Service.pdb
+D:\My Documents\Visual Studio 2010\Projects\skin analize\Service\bin\Debug\Service.exe
+D:\My Documents\Visual Studio 2010\Projects\skin analize\Service\bin\Debug\Service.pdb
+D:\My Documents\Visual Studio 2010\Projects\skin analize\Service\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\My Documents\Visual Studio 2010\Projects\skin analize\Service\bin\Debug\ANN.dll
+D:\My Documents\Visual Studio 2010\Projects\skin analize\Service\bin\Debug\ANN.pdb
+C:\Users\Pavel\Desktop\My Dropbox\Algorithms\skin analize\Service\obj\x86\Debug\Service.exe
+C:\Users\Pavel\Desktop\My Dropbox\Algorithms\skin analize\Service\obj\x86\Debug\Service.pdb
+C:\Users\Pavel\Desktop\My Dropbox\Algorithms\skin analize\Service\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Pavel\Desktop\My Dropbox\Algorithms\skin analize\Service\bin\Debug\Service.exe
+C:\Users\Pavel\Desktop\My Dropbox\Algorithms\skin analize\Service\bin\Debug\Service.pdb
+C:\Users\Pavel\Desktop\My Dropbox\Algorithms\skin analize\Service\bin\Debug\ANN.dll
+C:\Users\Pavel\Desktop\My Dropbox\Algorithms\skin analize\Service\bin\Debug\ANN.pdb
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Algorithms\Skin analize\Service\obj\x86\Debug\Service.exe
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Algorithms\Skin analize\Service\obj\x86\Debug\ResolveAssemblyReference.cache
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Algorithms\Skin analize\Service\bin\Debug\Service.exe
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Algorithms\Skin analize\Service\bin\Debug\Service.pdb
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Algorithms\Skin analize\Service\bin\Debug\ANN.dll
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Algorithms\Skin analize\Service\bin\Debug\ANN.pdb
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Algorithms\Skin analize\Service\obj\x86\Debug\Service.pdb
